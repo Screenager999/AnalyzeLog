@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 #include <map>
@@ -6,7 +6,7 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std;
+using namespace std ;
 
 string convertTimeToString(time_t timeInSeconds) {
 	tm timeInfo; // Создаем локальную переменную структуры tm
@@ -404,5 +404,6 @@ int main(int argc, char* argv[])
 		else {
 			cout << "Error The file could not be opened" << endl;
 		}
-	}
+	}   
+	return 0;
 }
